@@ -47,7 +47,7 @@ project/
 
  
 ## 사용 소프트웨어 및 패키지
-[TENT Official Github] (https://github.com/DequanWang/TENT) <br/>
-[Med-BERT] (https://github.com/ZhiGroup/Med-BERT) <br/>
-[Hugging Face MedBERT] (https://huggingface.co/Charangan/MedBERT) <br/>
-[eICU Collaborative Research Database] (https://eicu-crd.mit.edu/)
+[TENT Official Github](https://github.com/DequanWang/TENT) <br/>
+[Med-BERT](https://github.com/ZhiGroup/Med-BERT) <br/>
+[Hugging Face MedBERT](https://huggingface.co/Charangan/MedBERT) <br/>
+[eICU Collaborative Research Database](https://eicu-crd.mit.edu/)
