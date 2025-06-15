@@ -1,5 +1,5 @@
 # 전자 의료 기록(EHR) 기반 질병 예측 모델의 Source-free Domain Adaptation 적용 및 성능 비교
-본 연구는 전자 의료 기록(EHR)을 활용하여 다른 병원으로부터 공유받은 질병 예측 모델을 원본 학습 데이터 없이(source-free) 보유하고 있는 데이터만으로 모델의 예측 성능을 유지할 수 있도록 도메인 적응(Domain Adaptation) 기법 중 TENT(Test-time Entropy Minimization) 알고리즘을 적용하여 그 효과를 비교·분석하는 연구임.
+본 연구는 **전자 의료 기록(EHR)**을 활용하여 다른 병원으로부터 공유받은 질병 예측 모델을 **원본 학습 데이터 없이(source-free)** 보유하고 있는 데이터만으로 모델의 예측 성능을 유지할 수 있도록 **도메인 적응(Domain Adaptation)** 기법 중 **TENT(Test-time Entropy Minimization)** 알고리즘을 적용하여 그 효과를 비교·분석하는 연구임.
 
 
 ## 연구 배경
@@ -19,6 +19,7 @@
 
 
 ## 코드 체계
+```
 project/
 │
 ├── Pretrained_Med-BERT/ 
@@ -41,11 +42,12 @@ project/
 │
 ├── Modified_TENT/  # 추후 추가 예정..
 │   └── ...
+```
 
 
  
 ## 사용 소프트웨어 및 패키지
-TENT Official Github https://github.com/DequanWang/TENT<br/>
-Med-BERT https://github.com/ZhiGroup/Med-BERT<br/>
-Hugging Face MedBERT https://huggingface.co/Charangan/MedBERT<br/>
-eICU Collaborative Research Database https://eicu-crd.mit.edu/
+[TENT Official Github] (https://github.com/DequanWang/TENT) <br/>
+[Med-BERT] (https://github.com/ZhiGroup/Med-BERT) <br/>
+[Hugging Face MedBERT] (https://huggingface.co/Charangan/MedBERT) <br/>
+[eICU Collaborative Research Database] (https://eicu-crd.mit.edu/)
