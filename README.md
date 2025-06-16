@@ -27,11 +27,11 @@ project/
 │   │   ├── Data_preprocessing_code/  # 데이터 전처리 폴더
 │   │   │   ├── create_BERTpretrain_EHRfeatures.py  # EHR 특성 추출 코드
 │   │   │   └── preprocess_pretrain_data.py  # 데이터 전처리 코드
-│   │   ├── config.json
-│   │   ├── modeling.py
-│   │   ├── optimization.py
+│   │   ├── config.json # BERT 모델 구조와 하이퍼파라미터를 정의하는 설정 파일
+│   │   ├── modeling.py # BERT 아키텍처를 정의하는 모델 클래스와 레이어 구현 코드
+│   │   ├── optimization.py # 학습에 사용되는 옵티마이저와 학습 스케줄러를 정의한 코드
 │   │   ├── run_EHRpretraining.py  # 사전학습 코드
-│   │   ├── run_EHRpretraining_utils.py
+│   │   ├── run_EHRpretraining_utils.py # 데이터 로딩, 전처리, 손실 계산 등의 보조 함수들
 │   │
 │   ├── Fine-tuning/  # fine-tuning 폴더
 │   │   ├── Pickle_change.ipynb  # pickle file 변환 코드
