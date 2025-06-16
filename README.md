@@ -22,26 +22,26 @@
 ```
 project/
 │
-├── Pretrained_Med-BERT/ 
-│   ├── Updated_pretraining_scripts/
-│   │   ├── Data_preprocessing_code/ 
-│   │   │   ├── create_BERTpretrain_EHRfeatures.py
-│   │   │   └── preprocess_pretrain_data.py
+├── Pretrained_Med-BERT/  # 사전학습 용 Med-BERT 모델 폴더
+│   ├── Updated_pretraining_scripts/  # pre-training 폴더
+│   │   ├── Data_preprocessing_code/  # 데이터 전처리 폴더
+│   │   │   ├── create_BERTpretrain_EHRfeatures.py  # EHR 특성 추출 코드
+│   │   │   └── preprocess_pretrain_data.py  # 데이터 전처리 코드
 │   │   ├── config.json
 │   │   ├── modeling.py
 │   │   ├── optimization.py
-│   │   ├── run_EHRpretraining.py
+│   │   ├── run_EHRpretraining.py  # 사전학습 코드
 │   │   ├── run_EHRpretraining_utils.py
 │   │
-│   ├── Fine-tuning/
-│   │   ├── Pickle_change.ipynb
-│   │   ├── predicting_DHF_MED_BERT_LR.ipynb
+│   ├── Fine-tuning/  # fine-tuning 폴더
+│   │   ├── Pickle_change.ipynb  # pickle file 변환 코드
+│   │   ├── predicting_DHF_MED_BERT_LR.ipynb  # 당뇨 환자의 심부전 예측 코드
 │   │
-│   ├── sampleData_pretraining.ipynb
-│   └── Finetuning.ipynb
+│   ├── sampleData_pretraining.ipynb  # 업데이트된 전처리 및 사전학습 실행
+│   └── Finetuning.ipynb  # fine-tuning 및 성능 평가 실행
 │
-├── Modified_TENT/  # 추후 추가 예정..
-│   └── ...
+├── Modified_TENT/  # 수정된 TENT 알고리즘 폴더
+│   └── ...  # 추후 추가 예정..
 ```
 
 
